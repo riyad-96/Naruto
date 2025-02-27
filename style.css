@@ -35,7 +35,6 @@ p[style="font-size:30px"]{
   color: #333;
 }
 ul li a{
-  display: block;
   text-decoration: none;
   margin-bottom: 10px;
   color: #000;
@@ -45,6 +44,7 @@ ul li{
   margin-bottom: 10px;
   transition: 0.4s;
   border-radius: 5px;
+  max-inline-size: max-content;
 }
 ul li::marker{
   color: #e4e142;
